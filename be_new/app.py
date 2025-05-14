@@ -503,4 +503,4 @@ if __name__ == '__main__':
     print(f"Fusion model file: {'✓' if FUSION_MODEL_AVAILABLE else '✗'}")
     print(f"Fallback models: {'✓' if DUMMY_MODEL_AVAILABLE else '✗'}")
     print("=========================================\n")
-    app.run(debug=True) 
+    app.run(host='0.0.0.0', port=10000)
